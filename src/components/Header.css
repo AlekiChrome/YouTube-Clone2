@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    padding-left: 10px;
+    position: sticky;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .youtube-logo {
+    width: 100px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    border: 1px solid lightgray
+}
+
+.material-searchicon {
+    width: 50px;
+    border-color: #f0f0f0;
+    border-left: 1px solid lightgray;
+    color: gray;
+    cursor: pointer;
+}
+
+input {
+    flex: 1;
+}
+
+.header .github-icon {
+    justify-content:left;
+    padding-left: 5px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.icon-links {
+    display: flex;
+    align-items: center;
+}

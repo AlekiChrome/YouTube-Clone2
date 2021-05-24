@@ -1,0 +1,52 @@
+.video-deets, .channel-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.v-header h1 {
+    font-weight: 400;
+    font-size: large;
+}
+
+.video-deets p {
+    font-size: medium;
+    color: gray;
+}
+
+.video-deets * {
+    margin-top: 2px;
+}
+
+.likes * {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.likes .channel-info div {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.v-channel-info {
+    padding-left: 5px;
+}
+
+.v-info-title {
+    font-size: medium;
+    margin: 2px;
+}
+
+.subs {
+    color: gray;
+    font-size: small;
+    margin: 0;
+}

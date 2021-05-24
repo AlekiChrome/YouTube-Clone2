@@ -1,0 +1,53 @@
+body {
+    background: whitesmoke;
+}
+
+.about-sec {
+    text-align: center;
+}
+
+.about-sec p {
+    padding: 20px;
+}
+
+.bio-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.about-bio {
+    box-align:start;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.about-bio img {
+    width: 400px;
+}
+
+.about-bio h3 {
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(3, 3, 3);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.about-bio p {
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(96, 96, 96);
+    font-weight: 400;
+    font-size: 14px;
+    Line-height: 18px;
+    padding-top: 0;
+}
+
+.about-bio .bio-icon {
+    float: left;
+    margin-right: 0;
+    border-radius: 100%;
+    width: 40px;
+}

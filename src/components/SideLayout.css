@@ -1,0 +1,42 @@
+.side-layout {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.side-icon {
+    color: #606060;
+    font-size: large !important;
+}
+
+.side-title {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.side-layout:hover {
+    background-color: lightgray;
+    cursor: pointer
+}
+
+.side-layout:hover .side-icon {
+    color: red
+}
+
+.side-layout:hover > .side-title {
+    font-weight: bold;
+}
+
+.side-layout.selected {
+    background-color: lightgray;
+}
+
+.side-layout.selected >.side-icon {
+    color: red
+}
+
+.side-layout.selected >.side-title {
+    font-weight: bold;
+}
